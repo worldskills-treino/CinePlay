@@ -1,0 +1,59 @@
+body {
+    background-color: #141414;
+    color: #FFFFFF;
+}
+
+header {
+
+    display: flex;
+    background-color: #101010;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    color:#E50914
+}
+
+.links{
+    justify-content: space-between;
+}
+
+.links ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-end;
+    background-color: #333;
+    height: 500px;
+}
+
+button {
+    background-color: #E50914;
+    border: none;
+    color: white;
+    margin-right: 15px;
+    padding: 10px 20px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Final do header e começo do shelf*/
+
+.shelf h3{
+    font-size: 22px;
+    font-weight: bold;
+}
