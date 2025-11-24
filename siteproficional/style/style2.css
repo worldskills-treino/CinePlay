@@ -1,0 +1,118 @@
+body {
+    background-color: #141414;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #101010;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color:#E50914
+}
+.links{
+    gap:20px;
+}
+.links ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.detalhes-container{
+    display:flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
+    max-width: 1200px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.poster{
+    background-color: #555;
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.informacoes{
+    display:flex;
+    flex-direction: column;
+
+}
+.informacoes h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.informacoes p{
+    display: flex;
+    color: #999;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #E50914;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.sinopse h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.sinopse p{
+    font-size: 16px;
+    color: #999;
+}
+
+.elenco h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.elenco p{
+    font-size: 16px;
+    color: #999;
+}
+
+.generos h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.generos p{
+    font-size: 16px;
+    color: #999;
+}
+
+.card{
+
+    display: flex;
+    background-color: #555;
+    height: 260px;
+    width: 180px;
+
+}
+
+
+.conteiner-de-midia{
+    display: flex;
+    overflow-x: auto;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+footer{
+    background-color: #101010;
+    text-align: center;
+    padding: 30px;
+}

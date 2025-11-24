@@ -1,6 +1,9 @@
+
+
 body {
     background-color: #141414;
     color: #FFFFFF;
+    font-family: sans-serif;
 }
 
 header {
@@ -8,7 +11,7 @@ header {
     display: flex;
     background-color: #101010;
     height: 70px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -17,7 +20,7 @@ header h1 {
 }
 
 .links{
-    justify-content: space-between;
+    gap:20px;
 }
 
 .links ul {
@@ -56,4 +59,36 @@ p {
 .shelf h3{
     font-size: 22px;
     font-weight: bold;
+    margin-bottom: 15px;
+}
+.shelf2 h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.conteiner-de-midia{
+    display: flex;
+    overflow-x: auto;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+.card{
+    display: flex;
+    background-color: #555;
+    height: 260px;
+    width: 180px;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+footer{
+    background-color: #101010;
+    text-align: center;
+    padding: 30px;
 }
